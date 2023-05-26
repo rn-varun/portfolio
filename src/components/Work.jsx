@@ -24,7 +24,9 @@ const data = [
 
 export const Work = () => {
   return (
-    <div id="work" className="max-w-[1080px] m-2 md:pl-20 p-4 py-16">
+    <div className="max-w-full">
+    
+      <div id="work" className="max-w-[1080px] m-2 md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold pb-6 left-[10%]">Work Experience</h1>
       {data.map((item, idx) => (
         <WorkItems
@@ -35,5 +37,7 @@ export const Work = () => {
         />
       ))}
     </div>
+    </div>
+    
   );
 };

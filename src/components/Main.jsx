@@ -6,13 +6,13 @@ import { AiOutlineTwitter, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 const Main = () => {
     return (
         <div id='main'>
-            <img className='w-full h-screen object-cover object-left' src="https://wallpapers.com/images/hd/anya-forger-minimalist-anime-r7y6z82no6sf8evd.jpg" alt="background" />
+            <img className='w-full h-screen object-cover object-left' src="https://cdn.wallpapersafari.com/40/43/iVjfb2.png" alt="background" />
             <div className='w-full h-screen absolute top-0 left-0'>
 
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>Hey, I'm <span className='text-6xl text-gray-800'>Varun</span></h1>
-                    <h3 className='py-2'>やあ、私はヴァルンです</h3>
-                    <h2 className='sm:text-3xl text-2xl font-extralight mt-1'>I'm a 
+                    <h1 className='sm:text-5xl text-4xl font-bold text-white'>Hey, I'm <span className='text-6xl text-white'>Varun</span></h1>
+                    <h3 className='py-2 text-red-800 sm:text-2xl'>やあ、私はヴァルンです</h3>
+                    <h2 className='sm:text-3xl text-2xl font-extralight text-white mt-1'>I'm a 
                         <TypeAnimation
                             sequence={[
                                 'Coder', // Types 'One'
