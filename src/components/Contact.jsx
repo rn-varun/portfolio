@@ -8,10 +8,11 @@ const Contact = () => {
             <div>
                 <div>
                     <label>Name</label>
+                    <input type='text' placeholder='Your name' className='mx-6'/>
                 </div>
                 <div>
                     <label>Phone Number</label>
-                    
+                    <input type="text" placeholder='Phone number'/>
                 </div>
                 <div>
                     <label>Name</label>
