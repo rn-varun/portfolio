@@ -5,7 +5,7 @@ import { AiOutlineTwitter, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 const Main = () => {
     return (
-        <div id='main'>
+        <div id='home'>
             <img className='w-full h-screen object-cover object-left' src="https://cdn.wallpapersafari.com/40/43/iVjfb2.png" alt="background" />
             <div className='w-full h-screen absolute top-0 left-0'>
 
@@ -32,7 +32,7 @@ const Main = () => {
                     </h2>
                     
                     <div className='flex mt-2 max-w-[200px] space-x-2'>
-                        <a href="">
+                        <a href="https://github.com/rn-varun">
                             <AiFillGithub className="cursor-pointer" size={30} />
                         </a>
                         <a href=''>
